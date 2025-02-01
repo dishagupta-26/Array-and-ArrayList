@@ -18,6 +18,16 @@ public class Main {
         int index = finder.findSmallestDistance(array);
         System.out.println("Index of the first number is: " + index);
 
-    }
+        // 3. Converting array to ArrayList and vice versa
+        ArrayConverter converter = new ArrayConverter();
+        int[] sampleArray = { 1, 2, 3, 4, 5 };
+        ArrayList<Integer> arrayList = converter.convertArrayToList(sampleArray);
+        System.out.println("ArrayList: " + arrayList);
 
+        int[] convertedArray = converter.arrayListToArray(arrayList);
+        System.out.println("Converted Array: ");
+        for (int num : convertedArray) {
+            System.out.print(num + " ");
+        }
+    }
 }
