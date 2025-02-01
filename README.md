@@ -1,4 +1,4 @@
-# Array_and_ArrayList
+# Array and ArrayList
 
 This repository contains solutions for three Java programs involving arrays and ArrayLists. Below is a description of each task:
 
