@@ -1,6 +1,6 @@
 # Array and ArrayList
 
-This repository contains solutions for three Java programs involving arrays and ArrayLists. Below is a description of each task:
+This repository carries out 3 different operations arrays and ArrayLists. Below is a description of each of them:
 
 ## Task 1: Even and Odd Arrays
 - **Description**: Accepts numbers from the user and separates them into `even` and `odd` arrays.
