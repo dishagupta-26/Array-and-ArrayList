@@ -11,6 +11,13 @@ public class Main {
         // 1. Seperating numbers into even and odd arrays
         EvenOddSeparator separator = new EvenOddSeparator();
         separator.separateEvenOdd();
+
+        // 2. Finding neighboring numbers with the smallest distance
+        int[] array = { 5, 8, 2, 7, 10 };
+        NeighboringNumbers finder = new NeighboringNumbers();
+        int index = finder.findSmallestDistance(array);
+        System.out.println("Index of the first number is: " + index);
+
     }
 
 }
