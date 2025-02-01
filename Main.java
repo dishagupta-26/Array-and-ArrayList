@@ -4,6 +4,7 @@
 //Batch: A2
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,16 +18,16 @@ public class Main {
         NeighboringNumbers finder = new NeighboringNumbers();
         int index = finder.findSmallestDistance(array);
         System.out.println("\n2. Finding neighboring numbers with the smallest distance");
-        System.out.println("\nArray: " + array);
-        System.out.println("\nIndex of the first number is: " + index);
+        System.out.println("Array: " + Arrays.toString(array));
+        System.out.println("Index of the first number is: " + index);
 
         // 3. Converting array to ArrayList and vice versa
         System.out.println("\n3. Converting array to ArrayList and vice versa");
         ArrayConverter converter = new ArrayConverter();
         int[] sampleArray = { 1, 2, 3, 4, 5 };
-        System.out.println("Array: " + sampleArray);
+        System.out.println("Array: " + Arrays.toString(sampleArray));
         ArrayList<Integer> arrayList = converter.convertArrayToList(sampleArray);
-        System.out.println("\nArrayList: " + arrayList);
+        System.out.println("ArrayList: " + arrayList);
 
         int[] convertedArray = converter.arrayListToArray(arrayList);
         System.out.println("Converted Array: ");
