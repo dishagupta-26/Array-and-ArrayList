@@ -24,5 +24,7 @@ public class EvenOddSeparator {
         }
         System.out.println("Array of even numbers: " + even);
         System.out.println("Array of odd numbers: " + odd);
+
+        scanner.close();
     }
 }
